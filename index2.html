@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Bronce 5 - Donde el troll conoce al AFK</title>
+
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body class="grey darken-3">
+  <header>
+    <nav class="nav-extended grey darken-4">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">Bronce 5</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">GIFS</a></li>
+          <li><a href="#">Cosplay</a></li>
+
+        </ul>
+        <ul class="side-nav grey darken-4" id="mobile-demo">
+          <div class="userView">
+            <li>
+              <a href="#!user"><img class="circle" src="anonymous.jpeg"></a>
+              <a href="#!name"><span class="white-text name">Anonymous</span></a>
+              <a class="white-text waves-effect waves-teal" href="#">Register</a>
+            </li>
+          </div>
+          <li><a class="white-text waves-effect waves-light" href="#">GIFS</a></li>
+          <li><a class="white-text waves-effect waves-light" href="#">Cosplay</a></li>
+        </ul>
+      </div>
+      <div class="nav-content container">
+        <ul class="tabs tabs-transparent tabs-fixed-width">
+          <li class="tab"><a href="#retador" class="active">Retador</a></li>
+          <li class="tab"><a href="#platino">Platino</a></li>
+          <li class="tab"><a href="#bronce">Bronce</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+
+      <!-- div de add -->
+      <div class="row">
+        <div class="col s12 m2 l3">
+          <p class="center">Add</p>
+          <div class="card">
+            <div class="card-image">
+              <img src="hola.png">
+            </div>
+            <div class="card-action">
+              <a href="#">Ver imagen</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- post retador -->
+        <div class="col s12 m8 l7" id="retador">
+          <div class="card">
+            <div class="card-content">
+              <h6>wat</h6>
+            </div>
+            <div class="card-image">
+              <img class="responsive-img materialboxed" src="hola.png">
+            </div>
+            <div class="card-action">
+              <a class="btn waves-effect waves-light blue"><i class="material-icons white-text">star_border</i></a>
+              <a class="btn waves-effect waves-light blue"><i class="material-icons white-text">comment</i></a>
+              <a class="btn waves-effect waves-light blue"><i class="material-icons white-text">share</i></a>
+              <a class="btn waves-effect waves-red right btn-flat "><i class="material-icons grey-text">report</i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- post platino -->
+        <div class="col s12 m8 l7" id="platino">
+          <div class="card">
+            <div class="card-content">
+              <h6>Dafuk</h6>
+            </div>
+            <div class="card-image">
+              <img class="responsive-img materialboxed" src="hola.png">
+            </div>
+            <div class="card-action">
+              <a class="btn waves-effect waves-light blue"><i class="material-icons white-text">star_border</i></a>
+              <a class="btn waves-effect waves-light blue"><i class="material-icons white-text">comment</i></a>
+              <a class="btn waves-effect waves-light blue"><i class="material-icons white-text">share</i></a>
+              <a class="btn waves-effect waves-red right btn-flat "><i class="material-icons grey-text">report</i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- post bronce -->
+        <div class="col s12 m8 l7" id="bronce">
+          <div class="card">
+            <div class="card-content">
+              <h6>is going on</h6>
+            </div>
+            <div class="card-image">
+              <img class="responsive-img materialboxed" src="hola.png">
+            </div>
+            <div class="card-action">
+              <a class="btn waves-effect waves-light blue"><i class="material-icons white-text">star_border</i></a>
+              <a class="btn waves-effect waves-light blue"><i class="material-icons white-text">comment</i></a>
+              <a class="btn waves-effect waves-light blue"><i class="material-icons white-text">share</i></a>
+              <a class="btn waves-effect waves-red right btn-flat "><i class="material-icons grey-text">report</i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- div de random post -->
+        <div class="col s12 m2 l2">
+          <p class="center">Random post</p>
+          <div class="card ">
+            <div class="card-image">
+              <img src="hola.png">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- <footer class="page-footer">
+    <div class="cobtainer">
+    </div>
+  </footer> -->
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.button-collapse').sideNav();
+      $('.materialboxed').materialbox();
+      $('ul.tabs').tabs('select_tab', 'retador');
+      $('ul.tabs').tabs('select_tab', 'platino');
+      $('ul.tabs').tabs('select_tab', 'bronce');
+    });
+  </script>
+</body>
+
+</html>
