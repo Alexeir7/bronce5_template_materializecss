@@ -1,0 +1,7 @@
+#b2ff59 light-green accent-2 light
+#76ff03 light-green accent-3 secondary
+#32cb00 (custom) Dark
+
+#4f5b62 (custom) Light
+#263238 blue-grey darken-4 primary
+#000a12 (custom) Dark

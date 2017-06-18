@@ -1,0 +1,17 @@
+.tabs .indicator {
+  background-color: #76ff03 !important;
+}
+
+.waves-effect.waves-light-green-accent-2 .waves-ripple {
+  /* The alpha value allows the text and background color
+     of the button to still show through. */
+  background-color: rgba(178, 255, 89, 0.6);
+}
+
+i.icon-blue-grey-darken-4 {
+    color: rgba(38, 50, 56, 1);
+}
+
+main {
+  background-color: #4f5b62;
+}
