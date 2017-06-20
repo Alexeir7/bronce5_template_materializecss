@@ -9,9 +9,15 @@
 }
 
 i.icon-blue-grey-darken-4 {
-    color: rgba(38, 50, 56, 1);
+  color: rgba(38, 50, 56, 1);
 }
 
-main {
-  background-color: #4f5b62;
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
 }
